@@ -7,7 +7,7 @@ import math
 def PxToAngle(lensAngle, ImageDimention):
     """converts the pixel position into an angle 
     lensAngle = float representing the angle of the lens,
-    ImageDimention =  integer value representing the selected (x/y) dimention
+    ImageDimention =  integer value representing the selected (x/y) dimentions
     returns float: scale"""
     #work out pixel per degree
     scale = ImageDimention/lensAngle
